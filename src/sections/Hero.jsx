@@ -23,7 +23,7 @@ const Hero = () => {
           <br />
           <span className="text-red-600 inline-block mt-3">Jordan </span> Shoes
         </h1>
-        <p className="font-monserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">Scopri le eleganti novità Jordan, la qualità del comfort e l'innovazione per la tua vita attiva.</p>
+        <p className="font-monserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">Scopri le eleganti novità Jordan, la qualità del comfort e l&apos;innovazione per la tua vita attiva.</p>
         <Button label="Compra Adesso" iconURL={arrowRight} />
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16 ">
