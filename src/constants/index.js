@@ -5,7 +5,7 @@ export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "Chi Siamo" },
     { href: "#products", label: "Prodotti" },
-    { href: "#contact-us", label: "Contattaci" },
+    { href: "#footer", label: "Contattaci" },
 ];
 
 export const shoes = [
@@ -73,13 +73,13 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Gianfranco Navas',
         rating: 4.5,
         feedback: "L'attenzione ai dettagli e la qualità del prodotto hanno superato le mie aspettative. Altamente raccomandato!"
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'Pedro Fernandini',
         rating: 4.5,
         feedback: "Il prodotto non solo ha soddisfatto, ma superato le mie aspettative. Sarò sicuramente un cliente fedele!"
     }

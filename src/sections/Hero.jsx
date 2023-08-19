@@ -16,7 +16,7 @@ const Hero = () => {
       id="home"
       className="w-full flex xl:flex-row flex-col min-h-screen gap-10 max-container justify-center"
     >
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-52">
+      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-red-600">La Nostra Collezione Estiva</p>
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">Le Ultime Novità</span>
@@ -24,7 +24,7 @@ const Hero = () => {
           <span className="text-red-600 inline-block mt-3">Jordan </span> Shoes
         </h1>
         <p className="font-monserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">Scopri le eleganti novità Jordan, la qualità del comfort e l&apos;innovazione per la tua vita attiva.</p>
-        <Button label="Compra Adesso" iconURL={arrowRight} />
+        <Button label="Comprami" iconURL={arrowRight} />
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16 ">
           {statistics.map((stat, index) => (
